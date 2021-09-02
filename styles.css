@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+*{
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: 1px 1px rgb(63 162 162);
+}
+
+
+textarea{
+    width :80%;
+    height:10vh;
+    display:block;
+    padding:1rem;
+}
+ 
+ 
+ 
+ 
+ #divOutput{
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    color: black;
+    padding: 1rem;
+    opacity: 0.7;
+    background-color: rgb(247 247 247);
+}
+.center{
+    margin-top: 4rem;
+}
+
+
+ .head {
+
+     text-align: center;
+ }
+
+ #text {
+     margin: auto;
+     opacity: 0.5;
+ }
+
+ #btn-translate {
+     display: block;
+     margin: 1rem auto;
+     cursor: pointer;
+     color: white;
+     background-color: #000000;
+
+ }
+
+ #btn-translate:hover {
+    background-color: #292925;
+ }
+
+
+ .container {
+     margin: 3rem auto;
+     background-image: url(/images/encrypt.jpg);
+     width: 80%;
+     height: 400px;
+
+     background-size: 100% 100%;
+     padding: 2rem 2rem 0 2rem ;
+ }
+ .img-guide{
+     display: block;
+     margin: auto;
+     
+ }
+ .disp-center{
+   text-align: center;
+    display: block;
+    margin-top: 2rem;
+ }
+ .small-text{
+     
+    color: #000000;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px grey;
+ }
+
+ footer{
+    /* background-color: #faf6e2;  */
+    text-align: center;
+       
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+ 
+
