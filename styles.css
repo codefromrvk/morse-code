@@ -57,9 +57,8 @@ textarea{
  .container {
      margin: 3rem auto;
      background-image: url(/images/encrypt.jpg);
-     width: 80%;
+     width: 50vw;
      height: 400px;
-
      background-size: 100% 100%;
      padding: 2rem 2rem 0 2rem ;
  }
