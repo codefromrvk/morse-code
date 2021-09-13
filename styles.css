@@ -37,7 +37,7 @@ textarea{
 
  #text {
      margin: auto;
-     opacity: 0.5;
+    
  }
 
  #btn-translate {
@@ -73,7 +73,7 @@ textarea{
     margin-top: 2rem;
  }
  .small-text{
-     
+    font-size: 1rem;
     color: #000000;
     font-weight: bold;
     text-shadow: 1px 1px 8px grey;
