@@ -10,6 +10,8 @@ https://encrypt-morse-code.netlify.app/
 - API
 - Get scores based on your answers
 
+Note: The API used allows only 5 requests per user 😉
+
 
   
 ## Tech Stack
