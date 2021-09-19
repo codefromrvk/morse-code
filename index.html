@@ -15,22 +15,38 @@
 
 <body>
     <h1 class="head">
-        Encrypt 🔒
+        encrypt 🔒
     </h1>
+    <header id="hero">
+        <img src="/images/machine.svg" alt="">
+    </header>
     <div class="container">
-        <div class="center">
+        <div>
 
 
-            <textarea placeholder="Type your secret text here.." id="text" cols="30" rows="10"></textarea>
+            <textarea placeholder="Type your secret text here.." id="text" cols="30" rows="3"></textarea>
             <button id="btn-translate">Translate </button>
 
-            <div id="divOutput">
-                Translated text will appear here
-            </div>
+
+            <textarea id="divOutput" placeholder="Type your secret text here.." id="text" cols="30" rows="3"
+                disabled>  Translated text will appear here</textarea>
+
             <small class="disp-center small-text"> scroll down to see the guide </small>
         </div>
     </div>
+    <hr>
     <h2 class=" disp-center">>> <strong>Guide</strong> </h2>
+
+    <div id="rules">
+        <h3>International Morse Code </h3>
+        <ol>
+            <li>The length of a dot Is one unit</li>
+            <li>A dash is three units.</li>
+            <li>The pace between parts of the same letter is one unit.</li>
+            <li>The space between letters is three units.</li>
+            <li>The space between words is seven units.</li>
+        </ol>
+    </div>
     <img class="img-guide" src="images/guide.png" alt="">
 
     <footer class="footer">

@@ -1,45 +1,38 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 *{
-    font-family: 'Source Code Pro', monospace;
-    text-shadow: 1px 1px rgb(63 162 162);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    /* text-shadow: 1px 1px rgb(63 162 162); */
 }
 
-
-textarea{
-    width :80%;
-    height:10vh;
-    display:block;
-    padding:1rem;
-}
- 
- 
- 
- 
- #divOutput{
-    height: 10vh;
-    display: block;
-    margin: 1rem;
-    color: black;
+#rules{
     padding: 1rem;
-    opacity: 0.7;
-    background-color: rgb(247 247 247);
+    width: 50%;
+    margin: auto;
+    
 }
-.center{
-    margin-top: 4rem;
-}
-
+ 
+ 
+ 
+ 
 
  .head {
-
-     text-align: center;
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 1rem auto;
  }
 
  #text {
      margin: auto;
+     font-size: 1rem;
     
  }
-
+ textarea{
+    width: 100%;
+}
  #btn-translate {
      display: block;
      margin: 1rem auto;
@@ -53,14 +46,26 @@ textarea{
     background-color: #292925;
  }
 
-
+#hero{
+    width: 50%;
+    margin: auto;
+}
  .container {
      margin: 3rem auto;
-     background-image: url(/images/encrypt.jpg);
+     /* background-image: url(/images/encrypt.jpg); */
      width: 50vw;
-     height: 400px;
+    
      background-size: 100% 100%;
-     padding: 2rem 2rem 0 2rem ;
+
+
+    align-content: space-around;
+    display: flex;
+    /* justify-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+
  }
  .img-guide{
      display: block;
@@ -78,13 +83,18 @@ textarea{
     font-weight: bold;
     text-shadow: 1px 1px 8px grey;
  }
+ hr{
+     display: block;
+     margin: auto;
+    width: 80%;
+ }
 
  footer{
     /* background-color: #faf6e2;  */
     text-align: center;
        
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
 }
  
