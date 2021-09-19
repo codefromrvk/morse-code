@@ -13,25 +13,28 @@
     margin: auto;
     
 }
- 
- 
- 
- 
-
  .head {
-    border: 1px solid black;
     text-align: center;
-    width: 50%;
     margin: 1rem auto;
+    font-size: 3rem;
  }
 
  #text {
-     margin: auto;
-     font-size: 1rem;
+     color: white;
+    background-color: black;
     
  }
  textarea{
+    /* margin: auto;
+
     width: 100%;
+    font-size: 1rem; */
+    border:1px solid black;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
  #btn-translate {
      display: block;
@@ -51,20 +54,24 @@
     margin: auto;
 }
  .container {
-     margin: 3rem auto;
+     margin: auto;
+     padding: 2rem;
+ 
+
+     /* margin: 3rem auto; */
      /* background-image: url(/images/encrypt.jpg); */
-     width: 50vw;
+     /* width: 50vw;
     
      background-size: 100% 100%;
 
 
     align-content: space-around;
-    display: flex;
+    display: flex; */
     /* justify-items: center; */
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
     align-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 
  }
  .img-guide{

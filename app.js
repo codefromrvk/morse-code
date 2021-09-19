@@ -4,10 +4,12 @@ let btnTranslate = document.querySelector("#btn-translate");
 let text = document.querySelector("#text");
 
 let divOutput = document.querySelector("#divOutput")
-
+// let divOutput = document.querySelector("#divOutput")
+console.log(divOutput)
 let serverURL = "https://api.funtranslations.com/translate/morse.json";
 
 function getTranslationURL(inputText) {
+    console.log(serverURL + "?" + "text=" + inputText)
     return serverURL + "?" + "text=" + inputText;
 }
 
@@ -23,7 +25,7 @@ btnTranslate.addEventListener("click", () => {
         .then(res => res.json())
         .then(json => {
 
-            console.log(json.contents.translated)
+            console.log(json.contents) // console.log(json.contents.translated)
             divOutput.innerText = json.contents.translated;
         })
 

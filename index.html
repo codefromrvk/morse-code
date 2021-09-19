@@ -15,24 +15,25 @@
 
 <body>
     <h1 class="head">
-        encrypt 🔒
+        Encrypt
     </h1>
     <header id="hero">
         <img src="/images/machine.svg" alt="">
     </header>
     <div class="container">
-        <div>
+
+        <label for="text"> Enter your text:
 
 
-            <textarea placeholder="Type your secret text here.." id="text" cols="30" rows="3"></textarea>
-            <button id="btn-translate">Translate </button>
+            <textarea placeholder="Type your secret text here.." id="text" class="ip" cols="30"
+                rows="3"></textarea></label>
+        <button id="btn-translate">Translate </button>
 
+        <label for="text"> Translated text will appear here:
+            <textarea class="ip" id="divOutput" cols="30" rows="3" disabled>Translated text  </textarea></label>
 
-            <textarea id="divOutput" placeholder="Type your secret text here.." id="text" cols="30" rows="3"
-                disabled>  Translated text will appear here</textarea>
+        <small class="disp-center small-text"> **scroll down to see the guide** </small>
 
-            <small class="disp-center small-text"> scroll down to see the guide </small>
-        </div>
     </div>
     <hr>
     <h2 class=" disp-center">>> <strong>Guide</strong> </h2>
